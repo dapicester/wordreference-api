@@ -1,5 +1,7 @@
 'use strict';
 
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
 var cheerio = require('react-native-cheerio');
 /**
  * Process the html returned from the request and generates the JSON.
@@ -68,10 +70,19 @@ function createTranslationItem(html) {
   var toType = $('.ToWrd em').text();
   $('.ToWrd em').remove();
   var to = $('.ToWrd').text();
+
+  var _$$0$nextSibling$chil = _slicedToArray($('.FrWrd')[0].nextSibling.children, 2),
+      fromSense = _$$0$nextSibling$chil[0],
+      toSense = _$$0$nextSibling$chil[1];
+
+  fromSense = $(fromSense).text().trim();
+  toSense = $(toSense).text().trim();
   return {
     from: from,
     fromType: fromType,
+    fromSense: fromSense,
     toType: toType,
+    toSense: toSense,
     to: to,
     example: {
       from: [],

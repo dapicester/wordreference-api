@@ -20,7 +20,6 @@
     "JSON"
   ],
   "devDependencies": {
-    "babel-core": "^6.11.4",
     "babel-eslint": "^6.1.2",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
     "babel-preset-es2015": "^6.9.0",
@@ -65,5 +64,8 @@
     "babel-polyfill": "^6.23.0",
     "cheerio": "^0.22.0",
     "react-native-cheerio": "^1.0.0-rc.4"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
   }
 }
