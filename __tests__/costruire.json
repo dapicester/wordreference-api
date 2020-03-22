@@ -1,0 +1,63 @@
+{
+    "word": "costruire",
+    "pronWR": "[kostruˈire]",
+    "audio": [
+        "/audio/it/it/it24932.mp3"
+    ],
+    "translations": [
+        {
+            "title": "Principal Translations/Traduzioni principali",
+            "translations": [
+                {
+                    "from": "costruire",
+                    "fromSense": "",
+                    "fromType": "vtr",
+                    "to": "build, erect",
+                    "toSense": "edilizia",
+                    "toType": "vtr",
+                    "example": {
+                        "from": [
+                            "Ho costruito la casa da solo."
+                        ],
+                        "to": [
+                            "I built the house myself."
+                        ]
+                    }
+                },
+                {
+                    "from": "costruire",
+                    "fromSense": "(realizzare, ideare)",
+                    "fromType": "vtr",
+                    "to": "devise, create",
+                    "toSense": "",
+                    "toType": "vtr",
+                    "example": {
+                        "from": [
+                            "Ho costruito un sistema di irrigazione più efficace."
+                        ],
+                        "to": [
+                            "I devised a more efficient irrigation system."
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Compound Forms/Forme composte",
+            "translations": [
+                {
+                    "from": "costruire sulla sabbia",
+                    "fromSense": "",
+                    "fromType": "",
+                    "to": "to have weak foundations",
+                    "toSense": "(figurative: fleeting thoughts or plans)",
+                    "toType": "",
+                    "example": {
+                        "from": [],
+                        "to": []
+                    }
+                }
+            ]
+        }
+    ]
+}

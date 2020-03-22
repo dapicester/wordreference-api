@@ -1,0 +1,82 @@
+{
+  "word": "rainbow",
+  "pronWR": "/ˈreɪnbəʊ/",
+  "audio": [
+    "/audio/en/us/us/en069238.mp3",
+    "/audio/en/uk/general/en069238.mp3",
+    "/audio/en/uk/rp/en069238.mp3",
+    "/audio/en/uk/Yorkshire/en069238-55.mp3",
+    "/audio/en/Irish/en069238.mp3",
+    "/audio/en/scot/en069238.mp3",
+    "/audio/en/us/south/en069238.mp3",
+    "/audio/en/Jamaica/en069238.mp3"
+  ],
+  "translations": [
+    {
+      "title": "Principal Translations/Traduzioni principali",
+      "translations": [
+        {
+          "from": "rainbow",
+          "fromType": "n",
+          "fromSense": "(arc of colour)",
+          "toType": "nm",
+          "toSense": "",
+          "to": "arcobaleno",
+          "example": {
+            "from": [
+              "After the rain, the sun reappeared and Daisy saw a rainbow arching over the fields."
+            ],
+            "to": [
+              "Dopo la pioggia riapparve il sole e Daisy vide un arcobaleno che creava un arco sopra i campi."
+            ]
+          }
+        },
+        {
+          "from": "rainbow of [sth]",
+          "fromType": "n",
+          "fromSense": "",
+          "toType": "nm",
+          "toSense": "figurative",
+          "to": "arcobaleno di",
+          "example": {
+            "from": [
+              "Terry's shirt was a rainbow of colours."
+            ],
+            "to": [
+              "La maglietta di Terry era un arcobaleno di colori."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Compound Forms/Forme composte",
+      "translations": [
+        {
+          "from": "rainbow fish",
+          "fromType": "",
+          "fromSense": "(fish)",
+          "toType": "nm",
+          "toSense": "",
+          "to": "Melanotaeniidae",
+          "example": {
+            "from": [],
+            "to": []
+          }
+        },
+        {
+          "from": "rainbow trout",
+          "fromType": "n",
+          "fromSense": "(variety of fish)",
+          "toType": "nf",
+          "toSense": "",
+          "to": "trota iridea",
+          "example": {
+            "from": [],
+            "to": []
+          }
+        }
+      ]
+    }
+  ]
+}
