@@ -64,7 +64,6 @@
     "babel-core": "^6.23.1",
     "babel-polyfill": "^6.23.0",
     "cheerio": "^0.22.0",
-    "request": "^2.80.0",
-    "request-promise-native": "^1.0.3"
+    "react-native-cheerio": "^1.0.0-rc.4"
   }
 }
