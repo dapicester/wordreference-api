@@ -21,8 +21,11 @@
     "JSON"
   ],
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "cross-fetch": "^3.0.4"
+    "buffer": "^5.5.0",
+    "cheerio": "0.22.0",
+    "cross-fetch": "^3.0.4",
+    "events": "^3.1.0",
+    "stream": "^0.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
